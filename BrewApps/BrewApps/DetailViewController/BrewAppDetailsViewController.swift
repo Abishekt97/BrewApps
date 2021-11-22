@@ -47,6 +47,8 @@ class BrewAppDetailsViewController: UIViewController {
     super.loadView()
     
     //
+    self.view.backgroundColor = .white`
+    
     self.addConstraintAndView()
     self.addValue()
     
